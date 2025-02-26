@@ -1,0 +1,42 @@
+format = """
+[](#394260)\
+$username\
+[](bg:#262c40 fg:#394260)\
+$directory\
+[](bg:#1d2130 fg:#262c40)\
+$time\
+[](bg:#131620 fg:#1d2130)\
+$git_branch\
+$git_status\
+[](fg:#131620)\
+\n$character"""
+
+[character]
+style_user        = 'fg:#FFFFFF'
+format            = '> '
+
+[username]
+show_always       = true
+style_user        = 'bg:#394260 fg:#FFFFFF'
+format            = '[$user ]($style)'
+
+[directory]
+style             = "bg:#262c40 fg:#FFFFFF"  
+format            = '[ $path ]($style)'
+truncation_length = 3
+truncation_symbol = "…/"
+
+[time]
+disabled          = false
+time_format       = "%R"  
+style             = "bg:#1d2130 fg:#FFFFFF"
+format            = '[ ♥  $time ]($style)'
+
+[git_branch]
+symbol            = ""
+style             = "bg:#131620 fg:#FFFFFF"
+format            = '[ $symbol $branch ]($style)'
+
+[git_status]
+style             = "bg:#131620 fg:#FFFFFF"
+format            = '[ ($all_status$ahead_behind) ]($style)'
