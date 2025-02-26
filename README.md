@@ -3,8 +3,8 @@
 </h3>
 
 <p align="center">
-	<a href="https://github.com/Novcia/CosmicTheme/stargazers"><img src="https://img.shields.io/github/stars/Novcia/CosmicTheme?colorA=363a4f&colorB=b7bdf8&style=for-the-badge"></a>
-	<a href="https://github.com/Novcia/CosmicTheme/issues"><img src="https://img.shields.io/github/issues/Novcia/CosmicTheme?colorA=363a4f&colorB=f5a97f&style=for-the-badge"></a>
+	<a href="https://github.com/Novcia/CosmicTheme/stargazers"><img src="https://img.shields.io/github/stars/Novcia/CosmicTheme?colorA=363a4f&colorB=b7bdf8&style=for-the-badge&identify=xxx"></a>
+	<a href="https://github.com/Novcia/CosmicTheme/issues"><img src="https://img.shields.io/github/issues/Novcia/CosmicTheme?colorA=363a4f&colorB=f5a97f&style=for-the-badge&identify=xxx"></a>
 </p>
 
 ## Installation
